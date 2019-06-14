@@ -10,5 +10,5 @@ const insertionSort = array => {
   }
   return array; // retornando o array
 };
-const test = insertionSort([2,4,6,9,5])
-document.write(test);
+const test = insertionSort([2,4,6,9,5,9,7,20,10]);
+console.log(test);
